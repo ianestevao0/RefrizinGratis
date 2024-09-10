@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cini de Graça</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Mundo do Cini de Graça!</h1>
+    </header>
+    <main>
+        <section class="info">
+            <img src="download.png" alt="Logo Cini de Graça" class="logo">
+            <h2>Sobre o Cini de Graça</h2>
+            <p>O Cini de Graça é uma bebida refrescante que contém dióxido de carbono, o que cria as bolhas que você vê e sente ao beber.</p>
+            <p>Conheça diferentes marcas e sabores!</p>
+        </section>
+        <section class="questionario-section">
+            <h2>Questionário sobre Cini de Graça</h2>
+            <form id="questionario-form">
+                <div class="question">
+                    <label for="nome">1. Qual seu nome?</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                
+                <div class="question">
+                    <label for="email">2. E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="question">
+                    <label for="preferencia">3. Qual seu Cini de Graça favorito?</label>
+                    <input type="text" id="preferencia" name="preferencia" required>
+                </div>
+                
+                <div class="question">
+                    <label for="frequencia">4. Com que frequência você consome Cini de Graça?</label>
+                    <select id="frequencia" name="frequencia" required>
+                        <option value="">Selecione</option>
+                        <option value="diariamente">Diariamente</option>
+                        <option value="semanalmente">Semanalmente</option>
+                        <option value="mensalmente">Mensalmente</option>
+                        <option value="raramente">Raramente</option>
+                    </select>
+                </div>
+
+                <div class="question">
+                    <label for="sabor">5. Qual sabor de Cini de Graça você prefere?</label>
+                    <input type="text" id="sabor" name="sabor" required>
+                </div>
+                
+                <button type="submit">Enviar Respostas</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mundo do Cini de Graça</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
